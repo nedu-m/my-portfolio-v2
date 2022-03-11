@@ -282,3 +282,8 @@ footer ul {
     margin-right: auto;
   }
 }
+
+.my-image {
+  max-width: 56%;
+  max-height: min-content;
+}
