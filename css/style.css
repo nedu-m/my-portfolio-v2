@@ -88,6 +88,11 @@ img {
   font-size: 1rem;
 }
 
+#header {
+  height: 10%;
+  width: 15%;
+}
+
 .name span {
   font-family: var(--mono);
   font-size: 4rem;
