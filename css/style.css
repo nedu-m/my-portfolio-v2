@@ -31,6 +31,7 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
+  overflow-x: hidden;
 }
 
 h1,
@@ -108,14 +109,15 @@ img {
 /* contact section */
 
 #contact {
-  width: 400px;
+  width: fit-content;
   text-align: center;
   margin: 0 auto;
   padding: 4rem 0;
+  overflow: hidden;
 }
 
 #contact p:last-child {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 /* navigation */
